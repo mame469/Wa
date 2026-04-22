@@ -1,0 +1,156 @@
+body{
+  front-family: Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  background: #f4f4f4;
+  color: #333;
+}
+header{
+  background: #222;
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: #444;
+  display: flex;
+  justify-content: center;
+}
+nav ul li{
+  padding: 5px;
+  margin: 15px;
+}
+nav u li a{
+  color: rgb(19, 17, 17);
+  text-decoration: none;
+  font-weight: 30px;
+  transition: color 0.5sec;
+}
+nav ul li a:hover{
+  color:aqua;
+}
+section{
+  max-width: 800px;
+  padding: 40px;
+  margin: auto;
+  background: #1ef;
+}
+#about h2{
+  color: black;
+}
+#about{
+  color: rebeccapurple;
+  padding: 50px;
+  margin: 20px 0;
+  border-radius: 0;
+  border: 2px solid #ddd;
+  box-shadow: 0 4px 8px rgb(100, 100, 100, 100.1);
+}
+#skills h2{
+  color: black;
+}
+#skills{
+  color: rebeccapurple;
+  padding: 50px;
+  margin: 20px 0;
+  border-radius: 0;
+  border: 2px solid #ddd;
+  box-shadow: 0 4px 8px rgb(100, 100, 100, 100.1);
+}
+#projects h2{
+  color: black;
+}
+#projects h3{
+  color: blue;
+  font-size: larger;
+}
+#projects{
+  color: rebeccapurple;
+  padding: 50px;
+  margin: 20px 0;
+  border-radius: 0;
+  border: 2px solid #ddd;
+  box-shadow: 0 4px 8px rgb(100, 100, 100, 100.1);
+}
+.project{
+  margin: 20px 0;
+  padding: 2px;
+  border: 2px solid #ddd;
+  background: whitesmoke;
+  box-shadow: 0 4px 8px rgb(100, 100, 100, 100.1);
+  border-radius: 10px;
+  transition: transform 0.3sec;
+}
+.projecr:hover{
+  transform: scale(1.5);
+}
+#contact h2{
+  color: black;
+}
+#contact{
+  color: rebeccapurple;
+  padding: 50px;
+  margin: 20px 0;
+  border-radius: 0;
+  border: 2px solid #ddd;
+  box-shadow: 0 4px 8px rgb(100, 100, 100, 100.1);
+}
+ul{
+  list-style-type: none;
+  padding: 0;
+}
+ul li{
+  background: white;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgb(100, 100, 100, 100.1);
+}
+.dark-mode {
+    background-color: #111;
+    color: white;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  padding: 20px;
+}
+.gallery img {
+  width: 100%;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.gallery img:hover {
+  transform: scale(1.05);
+}
+.profile-header {
+  text-align: center;
+  padding: 20px;
+  
+  background-color: #111;
+  color: white;
+  border: 2px solid #ddd;
+  box-shadow: 0 4px 8px rgb(100, 100, 100, 100.1);
+}
+.profile-pic {
+  width: 120px; 
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid white;
+  margin-bottom: 10px;
+}
+
+footer{
+  color: rosybrown;
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
